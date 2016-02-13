@@ -1,0 +1,271 @@
+/* styles written in this file is for Standard */
+
+
+.clearfix:after{
+	content:		".";
+	display:		block;
+	visibility:		hidden;
+	height:			0.1px;
+	font-size:		0.1em;
+	line-height:		0;
+	clear:			both;
+}
+
+.clearfix{
+	zoom:			100%;
+}
+
+
+*{
+	margin:			0;
+	padding:		0;
+}
+
+html{
+	font-size:		62.5%;
+}
+
+body{
+	font-family:		'微软雅黑','Microsoft YaHei',sans-serif,Helvetica,Arial;
+	font-size:		16px;
+	font-size:		1.6rem;
+	line-height:		1.6;
+	background:		rgba(238,238,238,1);
+	color:			#333;
+	text-shadow:		1px 1px 1px #fff;
+}
+
+#wrapper{
+	
+}
+
+.cd{
+	position:		fixed;
+	top:			0;
+	left:			0;
+	z-index:		10000;
+	width:			100%;
+	height:			100%;
+	background:		#eee;
+}
+
+.cd #💗{
+	position:		fixed;
+	top:			50%;
+	left:			50%;
+	margin:			-17px 0 0 -111px;
+}
+
+
+#💖{
+	width:			100%;
+	height:			100%;
+	background:		url(../img/intro.jpg) no-repeat center center;
+	background-size:	cover;
+	position:		fixed;
+	top:			0;
+	left:			0;
+	z-index:		9999;
+}
+
+@media only screen and (min-width: 641px){
+	
+	#💖{
+		background:		url(../img/intro.jpg) no-repeat center center, linear-gradient(to bottom, #7394C8 0%, #8BAAA5 100%);
+		background-size:	contain;
+	}
+	
+}
+
+#💖 .button{
+	margin:			60px auto;
+	color:			#fff;
+	text-shadow:		1px 1px 1px #000;
+	text-align:		center;
+	animation:		bounce 1s infinite ease;
+}
+
+@keyframes bounce {
+	0%, 100% {margin-top: 60px;}
+	50% {margin-top: 50px;}
+}
+
+
+#💖 .button span{
+	display:		inline-block;
+	padding:		5px 10px;
+	background:		rgba(255,255,255,0.3);
+	border:			1px solid #fff;
+	border-radius:		5px;
+}
+
+.arrow-down {
+	display:inline-block;
+	width:0;
+	height:0;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-top:10px solid #fff;
+}
+
+#💖.go{
+	animation: gogogo 1.5s normal ease-out;
+}
+
+@keyframes gogogo{
+	from{opacity:1;transform:scale(1,1);}
+	to{opacity:0;transform:scale(3,3);}
+}
+
+
+
+#header{
+	position:		relative;
+	background:		url(../img/main_bg.png) no-repeat center center;
+	background-size:	cover;
+	width:			100%;
+	height:			150px;
+}
+
+.contents{
+	position:		relative;
+	margin:			0 auto;
+	width:			100%;
+	max-width:		1024px;
+	height:			100%;
+}
+
+.contents .💟{
+	width:			100%;
+	height:			100%;
+}
+
+.contents .💟 .slider{
+	margin:			0 auto;
+	width:			375px;
+	height:			100%;
+	//text-align:		center;
+}
+
+.contents .💟 .slider li{
+	box-sizing:		border-box;
+	list-style:		none;
+	padding:		0 15px;
+	width:			375px;
+	height:			100px;
+	overflow:		hidden;
+}
+
+.contents .bg1{
+	position:		absolute;
+	left:			0;
+	top:			0;
+	width:			100%;
+	height:			100px;
+	background-color:	rgba(0,0,0,0);
+	background-image:	linear-gradient(rgba(238,238,238,1),rgba(238,238,238,1) 20%,rgba(238,238,238,0));
+}
+
+.contents .bg2{
+	position:		absolute;
+	left:			0;
+	bottom:			0;
+	width:			100%;
+	height:			100px;
+	background-color:	rgba(0,0,0,0);
+	background-image:	linear-gradient(rgba(238,238,238,0),rgba(238,238,238,1) 80%,rgba(238,238,238,1));
+}
+
+
+.audio-box{right: 0px;bottom:0px;width:300px;height: 50px;z-index: 999;position: fixed;background: #000}
+.💕 {
+	position:		absolute;
+	left:			50%;
+	top:			50%;
+	//background-image: url("../img/icon1.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50%;
+	//width: 17.624%;
+	//height: 17.624%;
+	text-indent: 999999;
+	z-index: -999;
+}
+
+.💕.img1 {
+	background-image: url("../img/icon1.jpg");
+}
+
+.💕.img2 {
+	background-image: url("../img/icon2.jpg");
+}
+
+.💕.img3 {
+	background-image: url("../img/icon3.png");
+}
+
+
+.play{
+	animation:15s linear 0s normal none infinite rotate;
+}
+
+@keyframes rotate{
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg);}
+}
+
+
+#💞{
+	opacity: 0;
+	position: relative;
+	background: #eee;
+	width:100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#💞.dn{
+	display: none;
+}
+
+#💞.hidden{
+	opacity: 0;
+	animation: fadeout 3s normal linear;
+}
+
+#💞.show{
+	opacity: 1;
+	animation: fadein 3s normal linear;
+}
+
+@keyframes fadeout{
+	from{opacity:1;}
+	to{opacity:0;}
+}
+
+@keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+.kb-slide{
+	position: absolute;
+	z-index: 1;
+	width:100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.kb-slide img{
+	position: relative;
+	width:100%;
+	-webkit-transform: translate3d(0,0,0)
+	-moz-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+}
+
+
+
