@@ -13,8 +13,8 @@
 <link rel="icon" type="image/png" href="img/apple-touch-icon.png" sizes="180x180">
 <link rel="shortcut icon" href="img/favicon.ico">
 <title>最想做的事</title>
-<meta name="keywords" content="我爱你,高学吟">
-<meta name="description" content="高学吟，我始终爱你。">
+<meta name="keywords" content="">
+<meta name="description" content="">
 <link rel="stylesheet" type="text/css" href="css/jquery.flipcountdown.css" media="screen,print">
 <link rel="stylesheet" type="text/css" href="css/standard.css" media="screen,print">
 <script type="text/javascript" src="js/queryloader2.js"></script>
@@ -53,16 +53,18 @@
 		<div class="bg2"></div>
 	</div>
 
-	<div class="audio-box" style="display: none">
-		<audio id="myaudio1" src="md/voice.m4a" loop="loop" controls>
-		你的浏览器不支持HTML5
-		</audio>
-		<audio id="myaudio2" src="md/bg.m4a" loop="loop" controls>
-		你的浏览器不支持HTML5
-		</audio>
-		<input type="button" onclick="document.getElementById('myaudio').play()" value="播放" id="play-btn"  />
-		<input type="button" onclick="document.getElementById('myaudio').pause()" value="停止" id="stop-btn" />
-	</div>
+		<script language="Javascript">
+		<!--
+		var Words ="%3Cdiv%20class%3D%22audio-box%22%20style%3D%22display%3A%20none%22%3E%0A%09%09%3Caudio%20id%3D%22myaudio1%22%20src%3D%22md/voice.m4a%22%20loop%3D%22loop%22%20controls%3E%0A%09%09%u4F60%u7684%u6D4F%u89C8%u5668%u4E0D%u652F%u6301HTML5%0A%09%09%3C/audio%3E%0A%09%09%3Caudio%20id%3D%22myaudio2%22%20src%3D%22md/bg.m4a%22%20loop%3D%22loop%22%20controls%3E%0A%09%09%u4F60%u7684%u6D4F%u89C8%u5668%u4E0D%u652F%u6301HTML5%0A%09%09%3C/audio%3E%0A%09%09%3Cinput%20type%3D%22button%22%20onclick%3D%22document.getElementById%28%27myaudio%27%29.play%28%29%22%20value%3D%22%u64AD%u653E%22%20id%3D%22play-btn%22%20%20/%3E%0A%09%09%3Cinput%20type%3D%22button%22%20onclick%3D%22document.getElementById%28%27myaudio%27%29.pause%28%29%22%20value%3D%22%u505C%u6B62%22%20id%3D%22stop-btn%22%20/%3E%0A%09%3C/div%3E"
+		function OutWord()
+		{
+		var NewWords;
+		NewWords = unescape(Words);
+		document.write(NewWords);
+		}
+		OutWord();
+		// -->
+		</script>
 
 
 	<div id="💖">

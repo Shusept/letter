@@ -56,23 +56,7 @@ $('#💗').flipcountdown({
 		
 		
 		// 顶部图片轮播
-		$('#💞').Kenburns({
-			images: [
-				"img/top_slide_01.jpg",
-				"img/top_slide_02.jpg",
-				"img/top_slide_03.jpg",
-				"img/top_slide_04.jpg",
-				"img/top_slide_05.jpg",
-				"img/top_slide_06.jpg",
-				"img/top_slide_07.jpg",
-				"img/top_slide_08.jpg",
-				"img/top_slide_09.jpg"
-			],
-			scale:1.15,
-			duration:4000,
-			fadeSpeed:2000,
-			ease3d:'cubic-bezier(0.445, 0.050, 0.550, 0.950)'
-		});
+		eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('$(\'\\p\\t\\u\')["\\s\\7\\o\\j\\n\\m\\o\\8"]({q:["\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\r\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\y\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\z\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\i\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\g\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\x\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\v\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\w\\6\\b\\3\\4","\\0\\f\\4\\e\\9\\a\\3\\2\\8\\d\\0\\c\\7\\2\\5\\k\\6\\b\\3\\4"],H:1.G,I:K,J:C,B:\'\\l\\n\\j\\0\\l\\A\\j\\7\\F\\0\\7\\m\\E\\5\\6\\i\\i\\g\\h \\5\\6\\5\\g\\5\\h \\5\\6\\g\\g\\5\\h \\5\\6\\k\\g\\5\\D\'});',47,47,'x69||x5f|x70|x67|x30|x2e|x65|x73|x74|x6f|x6a|x64|x6c|x2f|x6d|x35|x2c|x34|x62|x39|x63|x72|x75|x6e|x23|images|x31|x4b|ud83d|udc9e|x37|x38|x36|x32|x33|x2d|ease3d|2000|x29|x28|x7a|15|scale|duration|fadeSpeed|4000'.split('|'),0,{}))
 		
 		
 		// 字幕轮播
