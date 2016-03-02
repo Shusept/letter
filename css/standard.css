@@ -39,6 +39,23 @@ body{
 	
 }
 
+.🌌{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -50px 0 0 -100px;
+	display:table;
+	width: 200px;
+	height: 100px;
+}
+
+.🌌 .🌅{
+	display:table-cell;
+	vertical-align: middle;
+	font-size: 24px;
+	text-align: center;
+}
+
 .cd{
 	position:		fixed;
 	top:			0;
